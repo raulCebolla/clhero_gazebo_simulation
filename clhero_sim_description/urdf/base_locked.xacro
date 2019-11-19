@@ -46,7 +46,7 @@
     <visual>
         <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
         <geometry>
-            <mesh filename="package://hexapodo_description/meshes/chassis_piezas.stl" scale="0.01 0.01 0.01"/>
+            <mesh filename="package://clhero_sim_description/meshes/chassis_piezas.stl" scale="0.01 0.01 0.01"/>
         </geometry>
         <material name="base_link_material">
             <color rgba="${51/255} ${102/255} ${0/255} 1"/>
@@ -55,7 +55,7 @@
     <collision>
         <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
         <geometry>
-            <mesh filename="package://hexapodo_description/meshes/chassis_piezas.stl" scale="0.01 0.01 0.01"/>
+            <mesh filename="package://clhero_sim_description/meshes/chassis_piezas.stl" scale="0.01 0.01 0.01"/>
         </geometry>
     </collision>
 
